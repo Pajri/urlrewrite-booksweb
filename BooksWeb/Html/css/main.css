@@ -1,0 +1,114 @@
+﻿body {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.navigation-menu {
+    list-style-type: none;
+    background-color: black;
+    overflow: auto;
+    padding: 0px 35px;
+}
+
+    .navigation-menu li a {
+        padding: 30px 30px;
+        display: block;
+        text-decoration: none;
+        font-family: sans-serif
+    }
+
+        .navigation-menu li a:not(.banner):hover {
+            background-color: darkgrey;
+        }
+
+    .navigation-menu li:first-child {
+        float: left;
+    }
+
+    .navigation-menu li {
+        float: right;
+    }
+
+    .navigation-menu .banner {
+        color: red;
+        padding: 15px 30px;
+        font-weight: bolder;
+        font-size: 45px;
+    }
+
+    .navigation-menu .item {
+        color: yellow;
+    }
+
+.section-title {
+    margin-top: 44px;
+    padding-left: 27px;
+    padding-bottom: 5px;
+    font-size: 21px;
+    border-bottom: 2px solid black;
+}
+
+.section-item-wrapper {
+    overflow: hidden;
+}
+
+.section-item-row {
+    overflow: auto;
+    overflow-y: hidden;
+    margin-bottom: 44px;
+}
+
+    .section-item-wrapper .section-item {
+        float: left;
+        width: 25%;
+        text-align: center;
+        margin: 0px;
+        padding-top: 20px;
+    }
+
+        .section-item-wrapper .section-item a {
+            text-decoration: none;
+        }
+
+        .section-item-wrapper .section-item img {
+            width: 40%;
+            height: 174px;
+            margin: auto;
+            display: block;
+        }
+
+        .section-item-wrapper .book{
+            width:20%!important;
+            text-align:center;
+        }
+
+.item-title {
+    margin-top: 44px;
+    padding-left: 27px;
+    padding-bottom: 5px;
+    font-size: 38px;
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-weight: bold
+}
+
+.item-detail {
+    margin-top: 40px;
+}
+
+    .item-detail img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .item-detail .item-writer, .item-detail .item-category {
+        text-align: center;
+    }
+
+    .item-detail .item-description {
+        width: 50%;
+        text-align: justify;
+        display: block;
+        margin: auto;
+    }

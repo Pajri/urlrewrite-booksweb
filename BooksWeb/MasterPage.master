@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/Html/css/main.css" rel="stylesheet" />
+    <link href="/Html/css/reset.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <ul class="navigation-menu">
+            <li><a href="/" class="banner">BOOKS</a></li>
+            <li><a href="/" class="item">Home</a></li>
+            <li><a href="/category" class="item">Category</a></li>
+        </ul>
+        <asp:ContentPlaceHolder id="ContentPlaceholderContent" runat="server">
+       
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
