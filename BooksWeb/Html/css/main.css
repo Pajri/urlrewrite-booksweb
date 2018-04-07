@@ -18,7 +18,7 @@
     }
 
         .navigation-menu li a:not(.banner):hover {
-            background-color: darkgrey;
+            background-color: #413939;
         }
 
     .navigation-menu li:first-child {
@@ -30,14 +30,17 @@
     }
 
     .navigation-menu .banner {
-        color: red;
+        color: white;
         padding: 15px 30px;
         font-weight: bolder;
         font-size: 45px;
+        font-family:fantasy;
     }
 
     .navigation-menu .item {
-        color: yellow;
+        color: white;
+        font-family: sans-serif;
+        font-size: 13px;
     }
 
 .section-title {
